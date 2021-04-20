@@ -180,8 +180,6 @@ hr{
     flex:30%;
     height: 200px;
     width:200px;
-    border-style: solid;
-    border-color: black;
 }
 
 .image-container .image-container-inside{
