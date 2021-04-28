@@ -17,7 +17,7 @@
 @media screen and (max-width:846px){
     .subheader{
         flex-direction: column;
-        height: auto;
+        flex:100%;
     }
 
     .subheading{
