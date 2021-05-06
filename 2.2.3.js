@@ -11,11 +11,9 @@ function partitionOn(pred, items) {
     if(pred(items[i])){
       let removedItem = items.splice(i,1);
       items.push(removedItem[0])
-      //return 2;
     }
     else{
       i++;
-      //return 1;
     }
     visited_number++;
   }
