@@ -10,7 +10,7 @@ function partitionOn(pred, items) {
   while(visited_number < items.length){
     if(pred(items[i])){
       let removedItem = items.splice(i,1);
-      items.push(removedItem[0])
+      items.push(removedItem[0])      
     }
     else{
       i++;
@@ -18,3 +18,4 @@ function partitionOn(pred, items) {
     visited_number++;
   }
   return i;
+}
