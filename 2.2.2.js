@@ -3,14 +3,14 @@
 //If the word's length is odd, return the middle character. 
 //If the word's length is even, return the middle 2 characters.
 
-function getMiddle(s)
+function getMiddle(word)
 {
   //Code goes here!
   
-  if(s_length%2 == 0){
-    return s.substr((s.length/2)-1,2)
+  if(word.length%2 == 0){
+    return word.substr((word.length/2)-1,2)
   }
   else{
-    return s.charAt(Math.floor(s.length/2));
+    return word.charAt(Math.floor(word.length/2));
   }
 }
