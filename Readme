@@ -1,6 +1,0 @@
-Difference Css src attribute and background-image?
-when using src image is a content, cannot automatically scale, the image will display in its original-size whereas a background-image is set to fit the image-view.
-
-!-------------------------------------------------------------------------------------------------------
-
-we used prettier plugin to format the code.
