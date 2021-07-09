@@ -1,0 +1,116 @@
+body{
+    margin:0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.background{
+    background-color: #0e2843;
+    height: 120px;
+}
+
+.heading{
+    height: 60px;
+    width: 350px;
+    background-color: white;
+    border-style: solid;
+    border-color: orangered;
+    z-index: 1;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+
+.heading>h1{
+    margin: 0px;
+    padding: 15px 0px 0px 40px;
+}
+
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.categoryContainer{
+    flex: 30%;
+    display: flex;
+    
+}
+
+.subHeading{
+    flex:70%;
+}
+
+.subHeading>h1{
+    margin-left: 550px;
+}
+
+.inputButtonContainer{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.inputButton{
+    height: 30px;
+    width: 170px;
+    border: none;
+    background: orangered;
+}
+
+.breakline{
+    border-bottom: 1px solid black;
+    margin:10px 50px 0px 50px;
+}
+
+.contentContainer{
+    margin: 0px 50px 0px 50px;
+}
+
+.articleContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.article{
+    display:flex;
+    margin: 30px;
+}
+
+.articleImage{
+    height: 200px;
+    width: 200px;
+    background-size: 200px 200px;
+}
+
+.articleContent{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 20px;
+}
+
+.articleDescription{
+    margin-top: 10px;
+}
+
+.readButton{
+    margin-top: 30px;
+    height: 35px;
+    width: 130px;
+    border: none;
+    background: orangered;
+}
+
